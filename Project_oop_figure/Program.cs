@@ -10,6 +10,11 @@ namespace Project_oop_figure
     {
         static void Main(string[] args)
         {
+            Figure figure = new Circle(1, 1, 5);
+            
+            Console.WriteLine(figure.ToString());
+
+            Console.ReadKey();
         }
     }
 }
