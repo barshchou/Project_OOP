@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creators\CircleCreator.cs" />
+    <Compile Include="Creators\RectangleCreator.cs" />
+    <Compile Include="Creators\TriangleCreator.cs" />
     <Compile Include="Figures\Circle.cs" />
     <Compile Include="Figures\Figure.cs" />
+    <Compile Include="Creators\FigureCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Figures\Rectangle.cs" />
@@ -52,5 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

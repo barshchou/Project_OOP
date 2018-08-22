@@ -35,6 +35,10 @@ namespace Project_oop_figure
             this.y3 = y3;
         }
 
+        public Triangle()
+        {
+        }
+
         public override double Square()
         {
             double a = Convert.ToDouble(Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2));

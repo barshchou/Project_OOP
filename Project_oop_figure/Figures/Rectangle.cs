@@ -37,6 +37,10 @@ namespace Project_oop_figure
             this.y4 = y4;
         }
 
+        public Rectangle()
+        {
+        }
+
         public override double Perimeter()
         {
             return perimeter = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2) * 2 + Math.Sqrt((x3 - x2) ^ 2 + (y3 - y2) ^ 2) * 2;

@@ -25,6 +25,11 @@ namespace Project_oop_figure
             get { return this.color; }
         }
 
+        public Circle()
+        {
+
+        }
+
         public Circle(int x1, int y1, double radius)
         {
             this.x1 = x1;
